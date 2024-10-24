@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version: [18.x, 20.x, 22.x]
     steps:
       - name: Checkout the Repository
         uses: actions/checkout@v1
@@ -55,7 +55,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.idtag }}
         run: |
-          gh release create "$tag" \
+          gh release create ${{ github.market-place }}  \
             --repo= "$market-place" \
             --title= "${v}" \
+            --latest
             --generate-notes
+            
