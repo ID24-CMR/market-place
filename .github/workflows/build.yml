@@ -4,9 +4,6 @@ on:
   pull_request:
     tags:
       - "v*"
-permissions: write
-  
-
 jobs:
   build:
     runs-on: ubuntu-latest
