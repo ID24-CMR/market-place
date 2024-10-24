@@ -14,7 +14,6 @@ jobs:
       matrix:
         node-version: [18.x]
     steps:
-      # Chechout the repository
       - name: Checkout the Repository
         uses: actions/checkout@v1
 
@@ -28,9 +27,9 @@ jobs:
 
       # Set up NodeJs Version to use in our project
       - name: Node ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
 
       # No 'uses' keywords beacuse we want to run script from package.json file
       - name: Update Docs folder directory
