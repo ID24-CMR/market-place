@@ -14,9 +14,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.idtag }}
         run: |
-          gh release create ${{ github.market-place }}  \
+          gh release create ${{github.market-place}}  \
             --repo= "$market-place" \
             --title= "${v}" \
-            --latest
+            --latest \
             --generate-notes
             
