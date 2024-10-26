@@ -1,21 +1,20 @@
-name: Build
-on: 
-  push:
-  pull_request:
-    tags:
-      - "v*"
-jobs:
-  release:
-    name: Release pushed tag
-    runs-on: ubuntu-latest
-    steps:
-      - name: Create Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ github.idtag }}
-        run: |
-            --repo= "$market-place" \
-            --title= "${v}" \
-            --latest \
-            --generate-notes
-            
+# .github/release.yml
+
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+    authors:
+      - octocat
+  categories:
+    - title: Breaking Changes 🛠
+      labels:
+        - Semver-Major
+        - breaking-change
+    - title: Exciting New Features 🎉
+      labels:
+        - Semver-Minor
+        - enhancement
+    - title: Other Changes
+      labels:
+        - "*"
