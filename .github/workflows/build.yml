@@ -14,7 +14,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.idtag }}
         run: |
-          gh release create [<v0.0.1>] [<*>]  \
+          gh release create [<../.github/workflow>] [<*>]  \
             --repo= "$market-place" \
             --title= "${v}" \
             --latest \
