@@ -31,4 +31,4 @@ jobs:
       - name: Update dist directory
         run: |
           npm i
-          npm run deploy
+          npm run deploy2
