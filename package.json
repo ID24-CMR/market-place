@@ -6,8 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "deploy2": "ng build --output-path docs --base-href /docs/"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
