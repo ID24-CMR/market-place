@@ -76,7 +76,8 @@
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n"
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "baseHref": ""
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",

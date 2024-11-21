@@ -1,13 +1,13 @@
 {
   "name": "market-place",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy2": "ng build --output-path docs --base-href /docs/"
+    "deploy2": "ng build --output-path docs"
   },
   "private": true,
   "dependencies": {
