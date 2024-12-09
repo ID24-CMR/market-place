@@ -3,7 +3,7 @@
    <a href="https://github.com/ID24-CMR/market-place/blob/main/LICENSE" title="License"><img src="https://img.shields.io/github/license/ID24-CMR/market-place?style=flat-square"></a>
   <a href="https://github.com/ID24-CMR/market-place/" title="Languages"><img src="https://img.shields.io/github/languages/count/ID24-CMR/market-place?style=flat-square"></a>
   <a href="https://github.com/ID24-CMR/market-place/" title="Version"><img src="https://img.shields.io/github/package-json/v/ID24-CMR/market-place?style=flat-square"></a>
-  <a href="https://github.com/ID24-CMR/market-place/" title="Version"> <img src="https://img.shields.io/github/last-commit/ID24-CMR/market-place/master"></a>
+  <a href="https://github.com/ID24-CMR/market-place/" title="Version"> <img src="https://img.shields.io/github/last-commit/ID24-CMR/market-place/main"></a>
   <p>
 	<a href="#service-apis">Service APIs</a>
 	<a href="#documentation">Documentation</a>
