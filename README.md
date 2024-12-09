@@ -1,3 +1,7 @@
+[![build status](https://github.com/coryrylan/angular-github-actions/workflows/Build/badge.svg)](https://github.com/idrice24/mns/actions) 
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 # MarketPlace
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
