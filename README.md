@@ -1,9 +1,9 @@
 [![build status](https://github.com/coryrylan/angular-github-actions/workflows/Build/badge.svg)](https://github.com/ID24-CMR/market-place/actions) 
 <a href="https://github.com/ID24-CMR/market-place/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/ID24-CMR/market-place?style=flat-square "></a>   
-   <a href="https://github.com/idrice24/mns/" title="License"><img src="https://img.shields.io/github/license/idrice24/mns?style=flat-square"></a>
-  <a href="https://github.com/idrice24/mns/" title="Languages"><img src="https://img.shields.io/github/languages/count/idrice24/mns?style=flat-square"></a>
-  <a href="https://github.com/idrice24/mns/" title="Version"><img src="https://img.shields.io/github/package-json/v/idrice24/mns?style=flat-square"></a>
-  <a href="https://github.com/idrice24/mns/" title="Version"> <img src="https://img.shields.io/github/last-commit/idrice24/mns/master"></a>
+   <a href="https://github.com/ID24-CMR/market-place/blob/main/LICENSE" title="License"><img src="https://img.shields.io/github/license/ID24-CMR/market-place?style=flat-square"></a>
+  <a href="https://github.com/ID24-CMR/market-place/" title="Languages"><img src="https://img.shields.io/github/languages/count/ID24-CMR/market-place?style=flat-square"></a>
+  <a href="https://github.com/ID24-CMR/market-place/" title="Version"><img src="https://img.shields.io/github/package-json/v/ID24-CMR/market-place?style=flat-square"></a>
+  <a href="https://github.com/ID24-CMR/market-place/" title="Version"> <img src="https://img.shields.io/github/last-commit/ID24-CMR/market-place/master"></a>
   <p>
 	<a href="#service-apis">Service APIs</a>
 	<a href="#documentation">Documentation</a>
